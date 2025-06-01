@@ -1,12 +1,16 @@
-# React + Vite
+# 📋 Lista com Filtro de Nome e Email
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação React que gera uma lista fictícia de usuários (com nome e e-mail) e permite filtrá-los por nome e/ou e-mail. É ideal para praticar conceitos como **useState**, **useMemo**, **useCallback** e **componentização** em React.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Geração automática de uma lista com 100 usuários fictícios usando `@faker-js/faker`
+- Filtro em tempo real por nome e e-mail
+- Botão para gerar uma nova lista de usuários aleatórios
+- Componentes reutilizáveis e estilização modular
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/)
+- [@faker-js/faker](https://www.npmjs.com/package/@faker-js/faker)
+- CSS Modules
