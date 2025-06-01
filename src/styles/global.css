@@ -1,0 +1,30 @@
+:root{
+    --cor-qpreto: #212529;
+    --cor-cinza-900: #343A40;
+    --cor-cinza-600: #495057;
+    --cor-cinza-300: #6C757D;
+    --cor-cinza-200: #ADB5BD;
+    --cor-cinza-100: #CED4DA;
+    --cor-quase-branco: #DEE2E6;
+    --cor-qbranco: #F8F9FA;
+
+    --font: Arial, 'sans-serif'
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-qpreto);
+    color: var(--cor-qbranco);
+    font-family: var(--font);
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.button{
+    background-color: var(--cor-cinza-200);
+    border: none;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    color:var(--cor-qpreto);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--cor-cinza-100);
+}

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-quase-branco);
+    font-size: 0.9rem;
+    gap: .5rem;
+    position: relative;
+}
+
+.container input{
+    padding: .5rem;
+    border-radius: .5rem;
+    background-color: var(--cor-cinza-900);
+    border: none;
+    margin-bottom: 1rem;
+    color: var(--cor-quase-branco);
+}
+
+.container input:hover{
+    border: 1px solid var(--cor-cinza-100);
+}
+
+.container button{
+    position: absolute;
+    top: 26px;
+    right: 5px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.table{
+    background-color: var(--cor-cinza-600);
+    border-radius: 1rem;
+    border-collapse: separate;
+}
+
+.table td, .table th{
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    width: 235px;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table th:not(:last-child),
+.table td:not(:last-child) {
+  border-right: 1px solid black;
+}
